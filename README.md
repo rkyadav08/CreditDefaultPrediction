@@ -20,8 +20,9 @@ An end-to-end machine learning pipeline to predict customer loan default, with m
 
 ## 🧪 Model Training
 
-- Logistic Regression (baseline)
-- XGBoost (optimized for performance)
+- Logistic Regression - Interpretable baseline model
+- Random Forest Classifier - Handles nonlinearities and ranks feature importance
+- XGBoost Performance-optimized gradient boosting model
 - Evaluation via confusion matrix and classification report
 
 ## 📊 Power BI Dashboard
@@ -37,9 +38,3 @@ An end-to-end machine learning pipeline to predict customer loan default, with m
 - Jupyter Notebook
 - Pickle (model persistence)
 
-## 🚀 How to Use
-
-1. Clone the repo
-2. Run `Default_prediction_model.ipynb` to generate predictions
-3. Use `logisticPDmodel.pkl` or `XGBPDmodel.pkl` in your app
-4. Load `ClassificationModelMonitoring.pbix` in Power BI Desktop
