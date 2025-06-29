@@ -5,7 +5,7 @@ An end-to-end machine learning pipeline to predict customer loan default, with m
 
 - `PreProcessing_PD_Model.py`: Python module with all preprocessing steps (outlier removal, encoding, scaling, SMOTE)
 - `Default_prediction_model.ipynb`: Jupyter notebook for training, testing, and exporting ML models
-- `logisticPDmodel.pkl` & `XGBPDmodel.pkl`: Trained models for deployment
+- `logisticPDmodel.pkl`,`rfPDmodel.pkl` & `XGBPDmodel.pkl`: Trained models for deployment
 - `pd_prediction.xlsx`: Input prediction data (with same schema as training data)
 - `ClassificationModelMonitoring.pbix`: Power BI dashboard for live model monitoring
 
@@ -29,7 +29,6 @@ An end-to-end machine learning pipeline to predict customer loan default, with m
 
 - Visualizes prediction results and feature distributions
 - Monitors model outputs over time
-- Interactive slicers to filter by region, age, and occupation
 
 ## 🛠 Tech Stack
 
